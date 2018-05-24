@@ -1,3 +1,1 @@
 
-
-buttonEncriptar.addEventListener('click', encriptar);

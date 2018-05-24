@@ -1,6 +1,5 @@
 
 
-
 const mensajeInput = document.getElementById('mensaje');
 const buttonEncriptar = document.getElementById('button-encriptar');
 const claveInput = document.getElementById("clave");
@@ -9,9 +8,9 @@ const claveInput = document.getElementById("clave");
 const encriptar = () => {
   const clavesita= parseInt(claveInput.value);
   const mensajito = mensajeInput.value.toUpperCase();
-  var final = "";
+    let final = "";
   for(let i = 0; i < mensajito.length; i++){
-      var c = (mensajito.charCodeAt(i)-65+clavesita)%26+65;
+      const c = (mensajito.charCodeAt(i)-65+clavesita)%26+65;
        final += String.fromCharCode(c);
       
 }
@@ -19,5 +18,4 @@ const encriptar = () => {
 }  
 
 buttonEncriptar.addEventListener('click', encriptar);
-
 

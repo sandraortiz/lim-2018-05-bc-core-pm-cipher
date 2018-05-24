@@ -1,6 +1,7 @@
 
 body {
     background:linear-gradient(#C8A06D, rgb(116, 86, 47))  ;
+    
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
     text-transform: uppercase;
 }
 h2{
+    
     color:white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: orange;
@@ -27,7 +29,11 @@ p {
 input,textarea {
     padding: 10px;
     background-color: beige;
-    border-radius :50px;
     color:black;
 
+}
+textarea{
+    height: 80px;
+    width: 50%;
+    background-color: beige;
 }
