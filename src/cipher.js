@@ -1,12 +1,14 @@
- //window.cipher = {
-  // ... 
-//encode : 
+
+
+
 const mensajeInput = document.getElementById('mensaje');
 const buttonEncriptar = document.getElementById('button-encriptar');
 const claveInput = document.getElementById("clave");
+
+
 const encriptar = () => {
   const clavesita= parseInt(claveInput.value);
-  const mensajito = mensajeInput.value;
+  const mensajito = mensajeInput.value.toUpperCase();
   var final = "";
   for(let i = 0; i < mensajito.length; i++){
       var c = (mensajito.charCodeAt(i)-65+clavesita)%26+65;
