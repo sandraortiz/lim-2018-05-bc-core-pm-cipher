@@ -1,39 +1,6 @@
-
 body {
-    background:linear-gradient(#C8A06D, rgb(116, 86, 47))  ;
-    
+    background-color:#5d6d7e 
 }
+gifa {
 
-h1 {
-    background-color: beige;
-    color: black;
-    text-align: center;
-    box-shadow: 10px 10px 27px black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-}
-h2{
-    
-    color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: orange;
-    box-shadow: 10px 10px 27px black;
-
-
-}
-
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-input,textarea {
-    padding: 10px;
-    background-color: beige;
-    color:black;
-
-}
-textarea{
-    height: 80px;
-    width: 50%;
-    background-color: beige;
 }
