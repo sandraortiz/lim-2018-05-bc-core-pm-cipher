@@ -4,22 +4,28 @@
    <meta charset="utf-8">
    <title> My Secret </title>
    <link rel="stylesheet" href="style.css">
-  <!-- <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  > -->
+   
+   <!-- <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  > -->
  </head>
  <body>
+   
    <h1>My Secret</h1>
    <h2> Fiesta sorpresa</h2>
       <label for="key">Ingrese un numero</label> 
       <input type="number" id="key" name="key" min="0" max="33" >
-      <section>
+      <section id="encode">
         <label for="menssage-encode">Esconde tu mensaje secreto  </label>
+        <br><br>
         <textarea  id="menssage-encode" ></textarea>
-        <input type="button" name ="click" value="Esconder" id="button-encode">  
+        <br>
+        <input type="button"  value="Esconder" id="button-encode">  
+      
       </section>
       <section>
         <label for="menssage-decode">Muestra tu mensaje secreto</label>
+        <br>
         <textarea  id="menssage-decode" ></textarea>  
-        <input type="button" name="click" value="Mostrar"  id="button-decode">  
+        <input type="button" value="Mostrar"  id="button-decode">  
       </section>
       <textarea name="" id="encodedecodemessage" readonly="readonly"></textarea>
     <script src="cipher.js"></script>

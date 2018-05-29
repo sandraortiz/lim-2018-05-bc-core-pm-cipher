@@ -1,7 +1,8 @@
 
 h1 {
-     background: linear-gradient(#22456a , #7796b7 );
+     background: linear-gradient(#000000 ,#5c0303 ,#961818,#e73731,#fa3030,#961818,#5c0303,#000000 );
      color: #ffffff;
      padding: 20px;
-     
+     font-family: "Inconsolata", sans-serif;
     }
+
