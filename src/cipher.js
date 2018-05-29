@@ -1,11 +1,5 @@
-
-const menssageencode = document.getElementById('menssage-encode');
-const menssagedecode = document.getElementById('menssage-decode');
-const buttonEncode = document.getElementById('button-encode');
-const buttonDecode= document.getElementById('button-decode');
-const keyInput = document.getElementById("key");
-
-const encode = () => {
+window.cipher = { 
+ encode: () => {
   const Keys= parseInt(keyInput.value);
   const messageE = menssageencode.value.toUpperCase();
     let messageEncode = "";
@@ -16,12 +10,8 @@ const encode = () => {
 }
   document.getElementById("encodedecodemessage").innerHTML= messageEncode;
 }  
-
-buttonEncode.addEventListener('click', encode);
-
-
-
-const decode = () => {
+,
+ decode : () => {
   const Keys= parseInt(keyInput.value);
   const messageD = menssagedecode.value.toUpperCase();
   let messageDecode = "";
@@ -33,4 +23,25 @@ const decode = () => {
   document.getElementById("encodedecodemessage").innerHTML= messageDecode;
 }  
 
-buttonDecode.addEventListener('click', decode);
+
+
+}
+const keyInput = document.getElementById("key");
+const menssageencode = document.getElementById('menssage-encode');
+const buttonEncode = document.getElementById('button-encode');
+
+buttonEncode.addEventListener('click', cipher.encode);
+
+
+const menssagedecode = document.getElementById('menssage-decode');
+const buttonDecode= document.getElementById('button-decode');
+buttonDecode.addEventListener('click', cipher.decode);
+
+
+
+
+
+
+
+
+

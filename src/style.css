@@ -1,3 +1,7 @@
-body {
-    background-color:#5d6d7e 
-}
+
+h1 {
+     background: linear-gradient(#22456a , #7796b7 );
+     color: #ffffff;
+     padding: 20px;
+     
+    }
