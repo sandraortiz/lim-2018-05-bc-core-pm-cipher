@@ -6,12 +6,23 @@ const buttonEncode = document.getElementById('button-encode');
 const encodedecodemessage  = document.getElementById('encodedecode-message');
 
 
+const empezarcifrado = () => {
+    let Key = keyInput.value;
+    let menssageEn = menssageencode.value; 
+   encodedecodemessage.value = window.cipher.encode(Key,menssageEn); 
+}
+
+buttonEncode.addEventListener('click',empezarcifrado);
+
+
+
+/*
 buttonEncode.addEventListener('click', ()=>{
     let Key = keyInput.value;
     let menssageEn = menssageencode.value;
     encodedecodemessage.value = window.cipher.encode(Key,menssageEn); 
 
-})
+})*/
 
 buttonDecode.addEventListener ("click" , ()=>{
     let Key = keyInput.value;
