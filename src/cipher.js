@@ -1,30 +1,43 @@
 window.cipher = { 
 encode: (offset,string) => {
-
-  const Keys= parseInt(offset.value);
-  const messageE = string.value.toUpperCase();
-    let messageEncode = "";
-  for(let i = 0; i < messageE.length; i++){
-      const chartForm = (messageE.charCodeAt(i)-65+Keys)%26+65;
-      messageEncode += String.fromCharCode(chartForm);
-      
+  const Keys= parseInt(offset);
+  let messageEncode = "";
+  for(let i = 0; i < string.length; i++) {
+      const chart = string.charCodeAt(i);
+      if (chart >=65 && chart <= 90)  {
+       const chartForm = (chart-65+Keys)%26+65;
+        messageEncode += String.fromCharCode(chartForm);
+       } 
+      else if(chart >= 97 && chart <=122)   {
+             const charForm = (chart-97+Keys)%26+97;
+             messageEncode += String.fromCharCode(charForm);
+       }  
+      else {
+    messageEncode += string[i]; 
+    }
   }
-  
-  //document.getElementById("encodedecodemessage").innerHTML= messageEncode;
-  return messageEncode;
+       return messageEncode;
 }  
 ,
  decode : (offset,string) => {
-  const Keys= parseInt(offset.value);
-  const messageD = string.value.toUpperCase();
-  let messageDecode = "";
-  for(let i = 0; i < messageD.length; i++){
-      const chartForm = (messageD.charCodeAt(i)-65-Keys+26)%26+65;
-      messageDecode += String.fromCharCode(chartForm);
-      
+  const Keys= parseInt(offset);
+ let messageDecode = "";
+for(let i = 0; i < string.length; i++){
+    const chart = string.charCodeAt(i);
+  if (chart >=65 && chart <= 90) { 
+           const chartForm = (chart-65-Keys+26*2)%26+65;
+            messageDecode += String.fromCharCode(chartForm);
+   } 
+     else if(chart >= 97 && chart <=122)   {
+           const charForm = (chart-97-Keys+26*2)%26+97;
+           messageDecode += String.fromCharCode(charForm);
+   }  
+   else {
+     messageDecode += string[i]
+   }
   }
-  return messageDecode;
-  //.getElementById("encodedecodemessage").innerHTML= messageDecode;
+     return messageDecode;
+    
 }  
 
 } 
