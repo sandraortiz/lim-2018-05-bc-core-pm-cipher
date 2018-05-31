@@ -7,11 +7,15 @@
    <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  > 
  </head>
  <body>
-
-      <h1 >My Secret</h1>
-      <h2> Fiesta sorpresa</h2>
-      <label for="key">Ingrese un numero</label> 
-      <input type="number" id="key" name="key"  >
+    <div class="header">
+    <h1 >My Secret  </h1>
+    <h2>❁Fiesta sorpresa❁</h2>
+    </div>
+      <section>
+        <label for="key">Ingrese un numero</label> 
+        <input type="number" id="key" name="key"  >
+      </section>
+      
       <section id="encode">
         <label for="menssage-encode">Esconde tu mensaje secreto  </label>
         <br><br>
@@ -27,7 +31,13 @@
         <br>
         <input type="button" value="Mostrar"  id="button-decode">  
       </section>
-      <textarea name="" id="encodedecode-message" readonly="readonly"></textarea>
+     
+      <section>
+        <label for="encodedecode-message">Aqui esta su mensaje</label>
+        <br>
+         <textarea name="" id="encodedecode-message" readonly="readonly"></textarea>
+      </section>
+     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

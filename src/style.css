@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+}
+
+
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background:#eedce7   ;
+    color:#626567  ; 
+    font-family: 'Great Vibes';
+}
+
+
+.header h1 {
+    font-size: 50px;
+}
+.header h2 {
+  font-size : 50px;
+
+}
