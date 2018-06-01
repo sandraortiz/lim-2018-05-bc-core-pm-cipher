@@ -4,49 +4,60 @@
    <meta charset="utf-8">
    <title> My Secret </title>
    <link rel="stylesheet" href="style.css">
-   <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  > 
+   <!-- <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  >  -->
  </head>
  <body>
-    <div class="header">
-    <h1 > ❁ My Secret ❁  </h1>
+   <header class="header">
+      <img id="ima" src="https://png.icons8.com/wired/50/000000/private2.png">
+     <h1>  My secret  party  </h1>
     <!-- <h2>Fiesta sorpresa</h2> -->
-    </div>
-    <div class="row">
-        <div class="side">
-            <h2>Fiesta Sorpresa</h2>
-            <p></p>
-             </div>  
+   </header>
+   <div class="row">
+     <div class="side">
+       <h2>
+
+       </h2>
+   </div>  
     <div class="main" >
      <section>
-        <label for="key">Ingrese un numero</label> 
+       <label for="key">Ingrese un numero</label> 
+        <br><br>
         <input type="number" id="key" name="key"  >
+        <br>
       </section>
-      
+      <br>
       <section id="encode">
         <label for="menssage-encode">Esconde tu mensaje secreto  </label>
         <br><br>
         <textarea  id="menssage-encode" ></textarea>
-        <br>
+        <br><br>
         <input type="button"  value="Cifrar" id="button-encode">  
       </section>
       
       <section>
         <label for="menssage-decode">Muestra tu mensaje secreto</label>
-        <br>
+        <br><br>
         <textarea  id="menssage-decode" ></textarea>  
-        <br>
+        <br><br>
         <input type="button" value="Mostrar"  id="button-decode">  
       </section>
-     
+      
+      
+      <div id="text">
       <section>
         <label for="encodedecode-message">Aqui esta su mensaje</label>
         <br>
          <textarea name="" id="encodedecode-message" readonly="readonly"></textarea>
       </section>
+      </div>
+
+      
      </div> 
      </div>
      <div class="footer">
-        <h2></h2>
+        <h2> 
+          
+        </h2>
       </div> 
     <script src="cipher.js"></script>
     <script src="index.js"></script>

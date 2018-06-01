@@ -17,4 +17,3 @@ buttonDecode.addEventListener ("click" , ()=>{
     let menssageDe = menssagedecode.value;
     encodeDecodemessage.value = window.cipher.decode(Key,menssageDe); 
 })
-

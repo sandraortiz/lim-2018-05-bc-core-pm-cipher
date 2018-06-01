@@ -33,11 +33,14 @@ for(let i = 0; i < string.length; i++){
    messageDecode += String.fromCharCode(charForm);
    }  
    else {
-     messageDecode += string[i]
+     messageDecode += string[i];
    }
   }
      return messageDecode;  
-}  ,
+}  
+
+,
+
 createCipherWithOffset: (offset) => {
   const result = {
   encode: (string)=>{
