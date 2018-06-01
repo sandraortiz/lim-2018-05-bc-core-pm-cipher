@@ -3,24 +3,48 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
      margin: 0;
 }
-
-
-
 .header {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    background:#eedce7   ;
-    color:#626567  ; 
+    background: #a6c2b3   ;
+    color: #000 ; 
     font-family: 'Great Vibes';
+    font-size: 40px;
 }
 
 
-.header h1 {
-    font-size: 50px;
-}
+    
+
 .header h2 {
   font-size : 50px;
 
 }
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+.main {   
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px; 
+    text-align: center; 
+    background: #ddd; 
+} 
