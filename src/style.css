@@ -1,40 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-     margin: 0;
+#inicio{
+ display:none;
 }
+
+.welcome {
+ font-family:  'Lobster';
+  
+}
+
+
+body { 
+ font-family: 'Gill Sans';
+ margin: 0;
+ background: linear-gradient(to right, #00416a, #e4e5e6); 
+ background-size: cover;   
+     }
 .header {
-    padding: 20px;
-    text-align: center;
-    background: /*linear-gradient(rgb(255, 251, 248),#D7CEC6 ) */linear-gradient(#C04848, #480048) ;
-    color:#FFF ; 
-    font-size : 50px;
-    font-family:'Brush Script MT';
+ padding: 20px;
+    text-align: left;
+    background: linear-gradient(to right, #00416a, #e4e5e6); 
+    font-family:  'Lobster';
+     font-size: 25px;
 }
-.row {  
+
+/* contenedor de las columnas*/
+.row { 
     display: flex;
     flex-wrap: wrap;
-    
 }
+
+/* columna de la izquierda */
 .side {
-    flex: 40%;
-    background-color:#B29D89 ;
-    color: #FFF;
-    padding: 20px;
+    flex: 30%; 
+    background: #bdc3c7;
+    padding: 30px; 
 }
 
-.main {   
-    flex: 60%;
+/* columna de la derecha */
+.main {
+    flex: 70%; 
+    background: #bdc3c7;
+    padding: 40px; 
+    text-align: center;
     
-    padding: 20px;
+
 }
 
-.footer {
-    padding: 20px; 
-    text-align: center; 
-    background: #ddd; 
-} 
+input, textarea {
+	color: #ffffff;
+	background-color: #4a819b;
+    font: 1em;
+    box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: 9px auto 0 auto;
+	padding: 5px;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+	width: 100%;
+}
+button{
+   border: none;
+   padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+/* responsive*/
+@media screen and (max-width: 700px) {
+    .row { 
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+  div.welcome {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.welcome {
+    font-size: 30px;
+  }
+}
 

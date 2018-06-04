@@ -1,64 +1,56 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="utf-8">
-   <title> My Secret </title>
-   <link rel="stylesheet" href="style.css">
-   <!-- <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0 , maximum-scale=1 , minimun-scale=1"  >  -->
- </head>
- <body>
-   <header class="header">
-      <img id="ima" src="https://png.icons8.com/wired/50/000000/private2.png">
-     <h1>  My secret  party  </h1>
-    <!-- <h2>Fiesta sorpresa</h2> -->
-   </header>
-   <div class="row">
-     <div class="side">
-       <h2>
-
-       </h2>
-   </div>  
-    <div class="main" >
-     <section>
-       <label for="key">Ingrese un numero</label> 
-        <br><br>
-        <input type="number" id="key" name="key"  >
-        <br>
-      </section>
-      <br>
-      <section id="encode">
-        <label for="menssage-encode">Esconde tu mensaje secreto  </label>
-        <br><br>
-        <textarea  id="menssage-encode" ></textarea>
-        <br><br>
-        <input type="button"  value="Cifrar" id="button-encode">  
-      </section>
-      
-      <section>
-        <label for="menssage-decode">Muestra tu mensaje secreto</label>
-        <br><br>
-        <textarea  id="menssage-decode" ></textarea>  
-        <br><br>
-        <input type="button" value="Mostrar"  id="button-decode">  
-      </section>
-      
-      
-      <div id="text">
-      <section>
-        <label for="encodedecode-message">Aqui esta su mensaje</label>
-        <br>
-         <textarea name="" id="encodedecode-message" readonly="readonly"></textarea>
-      </section>
+  <head>
+    <meta charset="utf-8">
+    <title> My Secret </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"  >  
+  </head>
+  <body>
+    <div class ="welcome" id="welcomepage">
+      <h1>My secret</h1>
+      <h6>Todos tenemos un mensaje muy importante para decir, y a veces conviene hacerlo en código para que sólo algunos elegidos puedan revelar el mensaje.  </h6>
+      <button class="hw" id="button-welcome">ingresar</button>
+    </div>
+    <div id ="inicio"> 
+      <header class="header">
+        <h1>My secret</h1>
+      </header>
+      <div class="row">
+        <div class="side">
+          <p>Sabias que <a href="https://es.wikipedia.org/wiki/Cifrado_César">cifrado cesar</a> es uno de los primeros métodos de cifrado conocidos históricamente. Julio César lo usó para enviar órdenes a sus generales en los campos de batalla.</p>
+          <p> Gracias a este metodo podemos Codificar y Decodificar tus mensajes , ahora te preguntas ¿Como lo uso? primero deberias tener en claro 3 conceptos </p>
+          <p>  Clave : Este es el numero que quieres desplazar cada letra de tu mensaje.</p>
+          <p>Codificar: Aqui escribes el mensaje que deseas esconder , se desplazar segun la clave que deseas.</p>
+          <p>Decodificar: Aqui escribes  el mensaje que habias escondido con la clave que usaste al codificar <strong>Es muy importante que utilizes la misma clave sino  el mensaje cambiaria </strong></p>
+        </div>
+        <div class="main" > 
+          <label for="key">Ingrese un numero</label> 
+          <br><br>
+          <input type="number" id="key" name="key" size="5"  >
+          <br><br>
+          <section id="encode">
+            <label for="menssage-encode">Esconde tu mensaje secreto  </label>
+            <br><br>
+            <textarea  id="menssage-encode" ></textarea>
+            <br>
+            <button value="Codificar" id="button-encode">Codificar</button> 
+            <br><br>
+          </section>
+          <section>
+            <label for="menssage-decode">Muestra tu mensaje secreto</label>
+            <br><br>
+            <textarea  id="menssage-decode" ></textarea>  
+            <br>
+            <button value="Decodificar" id="button-decode">Decodificar</button> 
+          </section>
+          <br>
+          <label for="encodedecode-message">Aqui esta su mensaje</label>
+          <br><br>
+          <textarea name="" id="encodedecode-message" readonly="readonly"></textarea>
+        </div>
       </div>
-
-      
-     </div> 
-     </div>
-     <div class="footer">
-        <h2> 
-          
-        </h2>
-      </div> 
+    </div> 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
