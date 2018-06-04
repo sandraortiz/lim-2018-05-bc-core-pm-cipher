@@ -2,7 +2,7 @@
 
 ## Preámbulo
 
-Al momento de organizar una fiesta sorpresa por alguna extraña razon el cumpleañero(a) siempre la descubre al menos a mi me ha pasado , por eso decide crear My secret una aplicacion  donde podras esconder los mensajes , solo podran leerlos el que organiza la fiesta y los invitados .
+Esta aplicacion se creo con el fin de poder esconder tus mensajes ya sea de whasap , messenger o organizar algo como una fiesta sorpresa organizarla sin que el cumpleañero se entere solo algunas personas que nosotros queramos . 
 
 ## Cifrado cesar
 
@@ -34,6 +34,9 @@ sistema ROT13.
 
 ![my secret](https://user-images.githubusercontent.com/34012605/40936971-c6d24176-6802-11e8-8629-cea0ca026f0c.gif)
 1.Primero ingresamos a la pagina dando click en el boton ingresar.
+
 2.Luego ponemos la clave o numero que queremos que se desplaze. En este caso el numero 2 .
+
 3.Escribimos el mensaje en este caso hola . Damos click en codificar nos sale jqnc .
+
 4.Aca escribimos el mensaje a  decodificar en este caso escribimos jqnc  ¡Es importante poner la misma clave o numero para que nos devuelva es mismo mensaje caso contrario nos regresara otro !
