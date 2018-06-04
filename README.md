@@ -4,10 +4,6 @@
 
 Al momento de organizar una fiesta sorpresa por alguna extraña razon el cumpleañero(a) siempre la descubre al menos a mi me ha pasado , por eso decide crear My secret una aplicacion  donde podras esconder los mensajes , solo podran leerlos el que organiza la fiesta y los invitados .
 
-
-![1](https://user-images.githubusercontent.com/34012605/40563882-112bc708-602c-11e8-91ee-8bb61701f2f5.PNG)
-
-
 ## Cifrado cesar
 
 La aplicacion funciona bajo el metodo de cifrado cesar que es un cifrado por sustitucion https://en.wikipedia.org/wiki/Caesar_cipher .
@@ -36,22 +32,8 @@ sistema ROT13.
 
 #Funcionamiento de My Secret
 
-1. Como aclaramos antes para que empieze a cifrar tu mensaje debemos poner un numero segun lo que deseamos desplazar.
-En este caso yo puse 2 .
-
-
-![captura](https://user-images.githubusercontent.com/34012605/40564149-374b353a-602d-11e8-83d5-17be26850773.PNG)
-
-
-2. Aqui escribiremos el mensaje a cifrar y daremos click .
-En este caso el mensaje que yo escribe es SANDRA que desplazando de 2 nos muestra UCPFTC.
-
-
-![2](https://user-images.githubusercontent.com/34012605/40564750-84f0c078-602f-11e8-81ca-c47a24368750.PNG)
-
-
-3. Aqui descifraremos el mensaje que nos ha enviado .
-Algo muy importante es recordar el numero el cual fue desplazo que en este caso  fue 2.
-Poniendo el mensaje cifrado UCPFTC nos regresa el mensaje original que fue SANDRA.
-
-![3](https://user-images.githubusercontent.com/34012605/40564890-180a6d1e-6030-11e8-8497-d5f876a3112b.PNG)
+![my secret](https://user-images.githubusercontent.com/34012605/40936971-c6d24176-6802-11e8-8629-cea0ca026f0c.gif)
+1.Primero ingresamos a la pagina dando click en el boton ingresar.
+2.Luego ponemos la clave o numero que queremos que se desplaze. En este caso el numero 2 .
+3.Escribimos el mensaje en este caso hola . Damos click en codificar nos sale jqnc .
+4.Aca escribimos el mensaje a  decodificar en este caso escribimos jqnc  ¡Es importante poner la misma clave o numero para que nos devuelva es mismo mensaje caso contrario nos regresara otro !
