@@ -2,11 +2,7 @@
 
 ## Preámbulo
 
-<<<<<<< HEAD
-Al momento de organizar una fiesta sorpresa por alguna extraña razon el cumpleañero(a) siempre la descubre al menos a mi me ha pasado , por eso decide crear My secret una aplicacion  donde podras esconder los mensajes , solo podran leerlos el que organiza la fiesta y los invitados .
-=======
 Esta aplicacion se creo con el fin de poder esconder tus mensajes ya sea de whasap , messenger o organizar algo como una fiesta sorpresa organizarla sin que el cumpleañero se entere solo algunas personas que nosotros queramos . 
->>>>>>> e7709a6c1bc42b49de2b917d829f455b0f0a245b
 
 ## Cifrado cesar
 
@@ -36,21 +32,8 @@ sistema ROT13.
 
 #Funcionamiento de My Secret
 
-<<<<<<< HEAD
-1. Como aclaramos antes para que empieze a cifrar tu mensaje debemos poner un numero segun lo que deseamos desplazar.
-En este caso yo puse 2 .
-
-![codificar](https://user-images.githubusercontent.com/34012605/40936790-1bf1a846-6802-11e8-8028-1ae0b51866b1.gif)
-
-2. Aqui escribiremos el mensaje a cifrar y daremos click .
-En este caso el mensaje que yo escribe es SANDRA que desplazando de 2 nos muestra UCPFTC.
-
-
-![2](https://user-images.githubusercontent.com/34012605/40564750-84f0c078-602f-11e8-81ca-c47a24368750.PNG)
-=======
 ![my secret](https://user-images.githubusercontent.com/34012605/40936971-c6d24176-6802-11e8-8629-cea0ca026f0c.gif)
 1.Primero ingresamos a la pagina dando click en el boton ingresar.
->>>>>>> e7709a6c1bc42b49de2b917d829f455b0f0a245b
 
 2.Luego ponemos la clave o numero que queremos que se desplaze. En este caso el numero 2 .
 
