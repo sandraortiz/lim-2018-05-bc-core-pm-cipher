@@ -4,10 +4,6 @@
 
 Al momento de organizar una fiesta sorpresa por alguna extraña razon el cumpleañero(a) siempre la descubre al menos a mi me ha pasado , por eso decide crear My secret una aplicacion  donde podras esconder los mensajes , solo podran leerlos el que organiza la fiesta y los invitados .
 
-
-![1](https://user-images.githubusercontent.com/34012605/40563882-112bc708-602c-11e8-91ee-8bb61701f2f5.PNG)
-
-
 ## Cifrado cesar
 
 La aplicacion funciona bajo el metodo de cifrado cesar que es un cifrado por sustitucion https://en.wikipedia.org/wiki/Caesar_cipher .
@@ -39,9 +35,7 @@ sistema ROT13.
 1. Como aclaramos antes para que empieze a cifrar tu mensaje debemos poner un numero segun lo que deseamos desplazar.
 En este caso yo puse 2 .
 
-
-![captura](https://user-images.githubusercontent.com/34012605/40564149-374b353a-602d-11e8-83d5-17be26850773.PNG)
-
+![codificar](https://user-images.githubusercontent.com/34012605/40936790-1bf1a846-6802-11e8-8028-1ae0b51866b1.gif)
 
 2. Aqui escribiremos el mensaje a cifrar y daremos click .
 En este caso el mensaje que yo escribe es SANDRA que desplazando de 2 nos muestra UCPFTC.

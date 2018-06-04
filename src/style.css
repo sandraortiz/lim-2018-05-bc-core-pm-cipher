@@ -21,11 +21,11 @@ body {
  background-size: cover;   
      }
 .header {
- padding: 20px;
+ padding: 5px;
     text-align: left;
     background: linear-gradient(to right, #00416a, #e4e5e6); 
     font-family:  'Lobster';
-     font-size: 25px;
+     font-size: 20px;
 }
 
 /* contenedor de las columnas*/
@@ -64,7 +64,7 @@ input, textarea {
 }
 textarea{
 	vertical-align: top;
-	height: 5em;
+	height: 4em;
 	resize: vertical;
 	width: 100%;
 }
